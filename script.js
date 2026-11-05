@@ -100,7 +100,7 @@ const translations = {
             copied: "تم النسخ!"
         },
         footer: {
-            rights: `© ${currentYear} معاذ الصبوح. جميع الحقوق محفوظة.`
+            rights: `© ${currentYear} <a href="https://links.moazns.sy" target="_blank" rel="noopener noreferrer" class="footer-link">معاذ الصبوح</a>. جميع الحقوق محفوظة.`
         }
     },
     en: {
@@ -196,7 +196,7 @@ const translations = {
             copied: "Copied!"
         },
         footer: {
-            rights: `© ${currentYear} Moaz Alsabouh. All rights reserved.`
+            rights: `© ${currentYear} <a href="https://links.moazns.sy" target="_blank" rel="noopener noreferrer" class="footer-link">Moaz Alsabouh</a>. All rights reserved.`
         }
     }
 };

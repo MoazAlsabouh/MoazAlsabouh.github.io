@@ -1016,6 +1016,18 @@ html[dir="rtl"] .arrow-icon {
     font-size: 0.9rem;
 }
 
+.footer-link {
+    color: var(--text-primary);
+    font-weight: 700;
+    border-bottom: 1px dashed var(--accent-primary);
+    padding-bottom: 1px;
+}
+
+.footer-link:hover {
+    color: var(--accent-primary);
+    border-bottom-style: solid;
+}
+
 .footer-sub {
     font-size: 0.82rem;
     color: var(--text-muted);
