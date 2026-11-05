@@ -4,6 +4,8 @@
  * Copy Email, Mobile Navigation, and Print/PDF Export.
  */
 
+const currentYear = new Date().getFullYear();
+
 const translations = {
     ar: {
         brandName: "معاذ الصبوح",
@@ -98,7 +100,7 @@ const translations = {
             copied: "تم النسخ!"
         },
         footer: {
-            rights: "© 2026 معاذ الصبوح. جميع الحقوق محفوظة."
+            rights: `© ${currentYear} معاذ الصبوح. جميع الحقوق محفوظة.`
         }
     },
     en: {
@@ -194,7 +196,7 @@ const translations = {
             copied: "Copied!"
         },
         footer: {
-            rights: "© 2026 Moaz Alsabouh. All rights reserved."
+            rights: `© ${currentYear} Moaz Alsabouh. All rights reserved.`
         }
     }
 };
